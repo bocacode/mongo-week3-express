@@ -1,4 +1,4 @@
-import { getBlockchainsCollection } from '../gateway/mongo';
+import { getBlockchainsCollection } from '../gateway/mongo.js';
 
 export const createBlockchain = async (blockchain) => {
   const col = await getBlockchainsCollection();
